@@ -1,0 +1,24 @@
+{
+  "name": "vue-common-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "e-screen": "^1.0.15",
+    "element-ui": "^2.15.6",
+    "vue-common-ui": "^0.5.0",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  }
+}
