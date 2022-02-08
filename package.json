@@ -18,7 +18,7 @@
     "async-validator": "^1.11.5",
     "e-screen": "^1.0.15",
     "element-ui": "^2.15.6",
-    "vue-common-ui": "^0.5.0",
+    "vue-common-ui": "^0.7.0",
     "vuepress-plugin-demo-container": "^0.2.0"
   }
 }

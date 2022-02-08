@@ -2,7 +2,7 @@ module.exports = {
   theme: '',
   title: 'VuePress + CommonUI',
   description: 'VuePress搭建CommonUI的组件库文档教程示例代码',
-  base: '/',
+  base: '/vue-common-vuepress/',
   port: '8081',
   themeConfig: {
     nav: [
@@ -49,6 +49,10 @@ module.exports = {
             {
               title: 'Progress 进度条(环形)',
               path: '/componentsDocument/data/screen-circle-progress.md'
+            },
+            {
+              title: 'Progress 进度条(环形canvas)',
+              path: '/componentsDocument/data/screen-circle-canvas.md'
             },
             {
               title: 'BatteryCharging 水波纹',
